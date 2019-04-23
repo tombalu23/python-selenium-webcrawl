@@ -13,7 +13,7 @@ f.write(headers)
 MAX_PAGE=5       #No. of pages
 page_no=1
 url='http://econpy.pythonanywhere.com/ex/001.html'
-browser= webdriver.Chrome()
+browser= webdriver.Chrome()               #open Google Chrome browser
 
 
 #To scrape pages from 1 to 5
